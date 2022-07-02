@@ -1,0 +1,52 @@
+.container {
+  width: 700px;
+  margin: auto;
+  padding-top: 13px;
+}
+
+.ava {
+  width: 400px;
+  height: 250px;
+}
+
+body {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 2rem;
+  color: rgb(177, 174, 174);
+  background: #090914;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.info-text {
+  margin-left: 25px;
+}
+
+.info-text p {
+  font-size: 25px;
+}
+
+a {
+  color: rgb(177, 174, 174);
+  text-decoration: underline;
+  text-decoration-color: aliceblue;
+}
+
+a:active {
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+
+  .container {
+    width: auto;
+  }
+}
